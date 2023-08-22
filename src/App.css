@@ -77,6 +77,7 @@ form input{
   body{
     background-color: black;
     max-height: 90vh;
+    padding-bottom: 20px;
   }
   main{
     background-color: black;
