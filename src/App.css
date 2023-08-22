@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
+body{
+  overflow: hidden;
+}
 main{
   height: 100vh;
   background-color: gray;
@@ -73,6 +76,7 @@ form input{
 @media only screen and (max-width: 1000px) {
   body{
     background-color: black;
+    max-height: 90vh;
   }
   main{
     background-color: black;
