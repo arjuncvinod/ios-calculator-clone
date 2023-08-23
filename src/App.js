@@ -9,9 +9,10 @@ function App() {
   }
 
   async function setNumber(e){
-   let a= result.concat(e.target.name)
-   console.log(a)
-    setResult(a)
+    setResult(result.concat(e.target.name))
+  }
+  function backspace(){
+    setResult(result.slice(0,-1))
   }
 function evaluate(){
   try{
@@ -29,7 +30,7 @@ function evaluate(){
         </form>
         <div className="keypads">
           <button className="controls" onClick={handleClick}>AC</button>
-          <button className="controls">C</button>
+          <button className="controls" onClick={backspace}>C</button>
           <button className="controls">%</button>
           <button className="yellow" onClick={setNumber} name="/">÷</button>
           <button onClick={setNumber} name="7">7</button>
