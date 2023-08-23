@@ -15,7 +15,8 @@ function App() {
   }
 function evaluate(){
   try{
-  setResult(eval(result))
+    // eslint-disable-next-line
+    setResult(eval(result));
   }catch(err){
     setResult("error")
   }
