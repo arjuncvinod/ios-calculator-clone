@@ -57,7 +57,11 @@ form input{
   font-size: 1.5rem;
   font-weight: 500;
   color: rgb(231, 231, 231);
+  transition: .015s;
 
+}
+.keypads button:active{
+  background-color: black;
 }
 .keypads .zero{
   grid-column: 1 / 3;
