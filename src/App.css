@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
 }
 body{
   overflow: hidden;
@@ -31,15 +31,15 @@ form{
   
 }
 form input{
-  /* height: 100%; */
   max-width: 300px;
   font-size:60px;
-  direction: rtl;
   outline: none;
   background-color: black;
   border: none;
   color: white;
   font-weight: 300;
+  padding:0 16px;
+  text-align: right;
 
 }
 .keypads{
