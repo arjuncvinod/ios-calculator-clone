@@ -14,6 +14,12 @@ function App() {
   function backspace(){
     setResult(result.slice(0,-1))
   }
+
+  function percentage(e){
+    // eslint-disable-next-line
+    setResult(eval(result)*100)
+  }
+
 function evaluate(){
   try{
     // eslint-disable-next-line
@@ -31,7 +37,7 @@ function evaluate(){
         <div className="keypads">
           <button className="controls" onClick={handleClick}>AC</button>
           <button className="controls" onClick={backspace}>C</button>
-          <button className="controls">%</button>
+          <button className="controls" onClick={percentage}>%</button>
           <button className="yellow" onClick={setNumber} name="/">÷</button>
           <button onClick={setNumber} name="7">7</button>
           <button onClick={setNumber} name="8">8</button>
