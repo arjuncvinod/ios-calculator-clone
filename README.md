@@ -1,2 +1,2 @@
-#Calculator
-#live demo : https://calculator-acv.netlify.app
+# Calculator
+### [live demo](https://calculator-acv.netlify.app)
