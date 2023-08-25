@@ -1,4 +1,4 @@
-# Calculator
+# iOS Calculator Clone
 ### [live demo](https://calculator-acv.netlify.app)
 
 #### Screenshots:
