@@ -75,6 +75,9 @@ form input{
   font-weight: 500;
   font-size: 2rem;
 }
+.keypads .yellow:active{
+  background-color: #b16f04;
+}
 .keypads .controls{
   background-color: #a0a0a0;
   color: black;
